@@ -61,6 +61,7 @@
             <p class="fs-4">Kualitas terbaik dari biji kopi pilihan,fresh diambil langsung dari petani</p>
             <hr class="border border-success border-3 opacity-75">
 
+
             <!-- Ini Untuk Select -->
 
             <div class="form-floating col-lg-4 mx-auto">
@@ -75,21 +76,7 @@
 
             <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
                 <div class="col mb-4">
-                    <div class="card">
-                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Capuchino</h5>
-                            <div class="row hargasize my-4">
-                                <div class="col">
-                                    120 mg
-                                </div>
-                                <div class="col fw-bold text-primary">
-                                    58.000
-                                </div>
-                            </div>
-                            <a href="#" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
@@ -139,7 +126,7 @@
         }
         function ambilData(dipilih) {
             var template = ""
-            $.getJSON(sumber).then(function (data) {
+            $.getJSON(sumber2).then(function (data) {
                 var data_kopi = data[dipilih]
                 console.log(data_kopi)
 
@@ -157,7 +144,7 @@
                                             ${item.harga}
                                         </div>
                                     </div>
-                                    <a href="${item.link}" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+                                    <a target ="_blank" href="${item.link}" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
                                 </div>
                             </div>
                         </div>`
