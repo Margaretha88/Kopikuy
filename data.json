@@ -40,17 +40,24 @@
     ],
     "nonkopi": [
         {
-            "foto": "images/produk/product_kopi_susu.jpg",
+            "foto": "https://www.indiffs.com/wp-content/uploads/2022/06/1282669-1000xauto-resep-es-cendol-min.webp",
             "nama": "Es Cendol",
             "size": "100 Gram",
-            "harga": "500.000",
-            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+            "harga": "50.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
         },
         {
-            "foto": "images/produk/product_latte.jpg",
+            "foto": "https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/ayosemarang/images/post/articles/2020/04/25/55938/es-campur.jpg",
             "nama": "Es Campur",
             "size": "150 Gram",
-            "harga": "150.000",
+            "harga": "75.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        },
+        {
+            "foto": "https://kecipir.com/blog/wp-content/uploads/2022/08/resep-es-pisang-ijo.jpg",
+            "nama": "Es Pisang ijo",
+            "size": "100 Gram",
+            "harga": "50.000",
             "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
         }
     ]
